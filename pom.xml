@@ -71,17 +71,7 @@
 				<goals>
 					<goal>test-jar</goal>
 				</goals>
-			</execution> 
-
-
-                <execution>
-                     <phase>package</phase>
-                    <goals>
-                        <goal>jar-no-fork</goal>
-                    </goals>
-                </execution>
-
-			
+			</execution> 	
                         			
 		</executions>
 	   </plugin>
