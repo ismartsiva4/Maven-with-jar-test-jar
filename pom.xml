@@ -71,6 +71,16 @@
 					<goal>test-jar</goal>
 				</goals>
 			</execution> 
+
+                        <execution>
+				<id>attach-test-sources</id>
+	                         <phase>package</phase> 
+				<goals>
+					<goal>jar-no-fork</goal>
+				</goals>
+			</execution> 
+
+			
 		</executions>
 	   </plugin>
 		</plugins>
