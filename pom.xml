@@ -74,7 +74,6 @@
 			</execution> 
 
 
-<executions>
                 <execution>
                     <id>attach-test-sources</id>
                     <goals>
